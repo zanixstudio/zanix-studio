@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="es" data-type="service">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0B1220">
+<meta name="page-type" content="service">
+<meta name="site-kind" content="other">
+<meta name="description" content="Diseño web para pequeños negocios. Explora las demos y los planes de Zanix Studio.">
+<title>Zanix Studio | Diseño web para pequeños negocios</title>
+<style>
+:root{--paper:#f3f1ea;--ink:#221f1a;--soft:#514c41;--line:#b7b1a3;--width:72rem;--edge:clamp(1.15rem,5vw,4rem)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:1rem/1.55 Arial,sans-serif}
+::selection{background:var(--ink);color:var(--paper)}
+.wrap{width:min(100% - 2 * var(--edge),var(--width));margin-inline:auto}
+a{color:inherit;text-underline-offset:.23em;touch-action:manipulation}
+a:hover{text-decoration-thickness:2px}
+a:focus-visible{outline:2px solid currentColor;outline-offset:5px}
+.skip{position:absolute;top:.5rem;left:var(--edge);background:var(--paper);padding:.75rem;transform:translateY(-150%)}
+.skip:focus{transform:none}
+header{border-bottom:1px solid var(--line)}
+.bar,nav,.actions{display:flex;align-items:center;flex-wrap:wrap;gap:.55rem 1rem}
+.bar{justify-content:space-between;padding-block:.7rem}
+.brand{font-weight:700;letter-spacing:-.025em;text-decoration:none;font-size:1.25rem}
+nav a,.brand{display:inline-flex;align-items:center;min-height:44px}
+nav a{font-size:.94rem}
+.hero{padding-block:clamp(3.6rem,10vw,8.5rem) clamp(3.6rem,8vw,7rem)}
+h1,h2,h3,p{margin:0}
+h1,h2{font-family:Georgia,serif;font-weight:400;line-height:1.02;letter-spacing:-.038em;text-wrap:balance}
+h1{font-size:clamp(3.05rem,9.4vw,6.15rem);max-width:13ch}
+h2{font-size:clamp(2.65rem,7vw,5rem)}
+h3{font-size:1.35rem;line-height:1.2;text-wrap:balance}
+.hero p,.contact p{margin-block:1.25rem 1.55rem;max-width:53ch;color:var(--soft)}
+.button{display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:.6rem 1rem;border:1px solid var(--ink);font-weight:700;text-decoration:none;background:var(--ink);color:var(--paper)}
+.button:hover{background:#474137}
+.button:focus-visible{outline-color:var(--ink)}
+.secondary{color:var(--ink);background:transparent}
+.secondary:hover{background:#e5e0d5}
+section[id]{scroll-margin-top:1rem}
+.section{padding-block:clamp(3rem,7vw,6rem);border-top:1px solid var(--line)}
+.section h2{margin-bottom:clamp(1.65rem,4vw,3rem)}
+.projects,.plans{display:grid;gap:2rem}
+article{min-width:0}
+figure{margin:0 0 1rem}
+figure img{display:block;width:100%;height:auto;border:1px solid var(--line)}
+.meta{font-size:.86rem;color:var(--soft);margin-top:.4rem}
+.project p:not(.meta),.plan p:not(.price){margin-top:.7rem;max-width:45ch}
+.project .button{margin-top:1rem}
+.plan{border-top:1px solid var(--line);padding-top:1.05rem}
+.price{font:400 clamp(2rem,4vw,3rem)/1.08 Georgia,serif;margin:.6rem 0;font-variant-numeric:tabular-nums}
+.plan a{display:inline-flex;align-items:center;min-height:44px}
+.contact{background:#e8e4da}
+.contact h2{margin-bottom:0}
+.status{display:inline-block;border:1px solid var(--line);padding:.65rem 1rem;font-weight:700}
+footer{padding-block:1.25rem 2rem;border-top:1px solid var(--line)}
+@media (min-width:48rem){.projects{grid-template-columns:repeat(2,minmax(0,1fr))}.plans{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (prefers-reduced-motion:no-preference){.hero h1{animation:arrive .55s ease-out both}@keyframes arrive{from{opacity:.7;transform:translateY(8px)}}}
+</style>
+<style>
+:root{--navy:#0B1220;--turquoise:#33D6C1;--cloud:#F7F9FC;--steel:#708198;--paper:var(--cloud);--ink:var(--navy);--soft:#47586d;--line:#aebac8}
+body{font-family:system-ui,sans-serif}
+header,.hero{color:var(--cloud);background:var(--navy)}
+header{border-color:#70819860}
+.bar{padding-block:1rem}
+.brand{gap:.55rem}
+.mark{flex:none}
+.wordmark{display:grid;font-weight:750;font-size:1.32rem;letter-spacing:-.04em;line-height:1}
+.wordmark span{font-size:.61rem;text-transform:uppercase;letter-spacing:.27em;margin-top:.23rem}
+.hero{position:relative;isolation:isolate;overflow:hidden}
+.hero::after{content:"";position:absolute;z-index:-1;right:-7rem;bottom:-11rem;width:clamp(11rem,31vw,29rem);height:37rem;transform:skewX(-36deg);background:var(--turquoise);border-left:clamp(2rem,8vw,8rem) solid #70819840;background-clip:padding-box}
+.hero-inner{position:relative}
+h1,h2,.price{font-family:inherit;letter-spacing:-.045em}
+h1,h2{font-weight:720}
+h1{max-width:14ch;font-size:clamp(2.65rem,8vw,6rem)}
+h1 em{color:var(--turquoise);font-style:normal}
+.hero p{color:var(--cloud);max-width:43ch}
+.hero .button{background:var(--turquoise);color:var(--navy);border-color:var(--turquoise)}
+.hero .button:hover{background:var(--cloud);border-color:var(--cloud)}
+.hero .secondary{background:var(--navy);border-color:var(--steel);color:var(--cloud)}
+.hero .secondary:hover{background:var(--cloud);color:var(--navy)}
+.hero .button:focus-visible{outline-color:var(--cloud)}
+.button{border-radius:.38rem}
+.secondary:hover{background:#e5ecf2}
+.contact{background:#e4ebf2}
+.plan{border-top:1px solid var(--steel)}
+.price{font-weight:680}
+@media(max-width:48rem){.hero::after{width:5rem;height:14rem;right:-4rem;bottom:-6rem;border-left-width:2rem}.hero p{max-width:36ch}}
+@media(max-width:24rem){.hero .actions{align-items:stretch;flex-direction:column}.hero::after{opacity:.5}}
+</style>
+<style>
+:root{--panel:#131e2f;--rule:#70819880;--quiet:#bac7d8}
+body{background:var(--navy);color:var(--cloud)}
+::selection{background:var(--turquoise);color:var(--navy)}
+.skip{color:var(--navy);z-index:5}
+header,.section,footer{border-color:var(--rule)}
+.section{background:var(--navy)}
+.section h2::after{content:"";display:block;width:2.8rem;height:.23rem;margin-top:.85rem;background:var(--turquoise);transform:skewX(-32deg)}
+.projects{gap:clamp(1.15rem,3vw,2.4rem)}
+.project{background:var(--panel);border:1px solid var(--rule);border-radius:.55rem;overflow:hidden;display:flex;flex-direction:column;align-items:flex-start}
+.project figure{width:100%;margin:0 0 1.3rem;background:#1c293a}
+.project figure img{border:0;border-bottom:1px solid var(--rule)}
+.project h3,.project p,.project .button{margin-inline:clamp(1rem,3vw,1.65rem)}
+.project p:not(.meta){margin-bottom:1rem}
+.project .button{margin-top:auto;margin-bottom:1.35rem}
+.meta{color:var(--quiet)}
+.section .button{background:var(--turquoise);border-color:var(--turquoise);color:var(--navy)}
+.section .button:hover{background:var(--cloud);border-color:var(--cloud)}
+.section .button:focus-visible{outline-color:var(--cloud)}
+#planes{background:var(--panel)}
+.plans{gap:clamp(1.35rem,3vw,2.6rem)}
+.plan{display:flex;flex-direction:column;align-items:flex-start;border-top:1px solid var(--steel);padding-top:1.2rem}
+.plan .price{color:var(--turquoise)}
+.plan a{color:var(--turquoise);margin-top:.35rem}
+.contact{position:relative;isolation:isolate;overflow:hidden}
+.contact::after{content:"";position:absolute;z-index:-1;right:-6rem;bottom:-9rem;width:clamp(6rem,21vw,19rem);height:22rem;background:var(--turquoise);border-left:clamp(2rem,6vw,5rem) solid #70819850;background-clip:padding-box;transform:skewX(-36deg)}
+.contact p{color:var(--quiet)}
+.status{background:var(--panel);border-color:var(--steel);border-radius:.38rem}
+footer{background:var(--panel)}
+@media(max-width:48rem){.contact::after{width:5rem;height:12rem;right:-4rem;bottom:-6rem}}
+</style>
+<style>.social-actions{display:flex;flex-wrap:wrap;gap:.55rem}.social-actions .button{font-size:.875rem;background:var(--turquoise);color:var(--navy);border-color:var(--turquoise)}.social-actions .secondary{background:transparent;color:var(--cloud);border-color:var(--steel)}.social-actions .button:hover{background:var(--cloud);color:var(--navy)}.social-actions .button:focus-visible{outline-color:var(--cloud)}footer .wrap{display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap}</style><style>
+.project.featured{display:grid;grid-column:1/-1}
+.featured figure{margin:0}
+.featured figure img{height:100%;object-fit:cover;object-position:top}
+.featured-copy{padding:clamp(1.2rem,4vw,3rem);align-self:center}
+.featured .featured-copy :is(h3,p,.button){margin-inline:0}
+.featured .featured-copy .project-label{color:var(--turquoise);font-size:.85rem;font-weight:700;margin:0 0 .65rem}
+.featured h3{font-size:clamp(1.65rem,4vw,2.65rem)}
+.featured .featured-copy .button{margin:0}
+@media(min-width:56rem){
+  .project.featured{grid-template-columns:minmax(0,1.3fr) minmax(0,1fr)}
+  .featured figure img{border-bottom:0;border-right:1px solid var(--rule)}
+}
+</style>
+</head>
+<body id="inicio">
+<a class="skip" href="#contenido">Saltar al contenido</a>
+<header><div class="wrap bar"><a class="brand" href="#inicio" translate="no" aria-label="Zanix Studio, inicio"><svg class="mark" width="38" height="31" viewBox="0 0 230 180" aria-hidden="true" focusable="false"><path fill="#33D6C1" d="M30 52 71 1h106l-24 29h-20l-19 22z"/><path fill="currentColor" d="M177 1h44l-80 99h-23l-42 51h32l25-30h97l-49 58H0l82-99h29z"/></svg><span class="wordmark">Zanix<span>Studio</span></span></a><nav aria-label="Principal"><a href="#proyectos">Proyectos</a><a href="#planes">Planes</a><a href="#contacto">Contacto</a></nav><div class='social-actions'><a class='button secondary' href='https://www.instagram.com/zanix.webdeveloper/'>Ver Instagram</a><a class='button' href='https://wa.me/50432431308?text=Hola%2C%20Zanix%20Studio.%20Quiero%20una%20cotizaci%C3%B3n%20para%20la%20p%C3%A1gina%20web%20de%20mi%20negocio.'>Contacto por WhatsApp</a></div></div></header>
+<main id="contenido">
+<section class="hero" data-enter><div class="wrap hero-inner">
+<h1>Desarrollo web para <em>pequeños negocios</em></h1>
+<p>Muestra tus servicios y facilita que tus clientes te encuentren y te escriban.</p>
+<div class="actions"><a class="button" href="#proyectos">Ver proyectos</a><a class="button secondary" href="#contacto">Pedir cotización</a></div></div>
+</section>
+<section id="proyectos" class="section"><div class="wrap">
+<h2>Proyectos</h2>
+<div class="projects">
+<article class="project featured" id="vida-plena">
+<figure><img src="zanix-assets/vida-plena.jpg" width="1265" height="712" loading="lazy" decoding="async" alt="Captura del inicio de Vida Plena Senior con el título Vivir mejor, juntos"></figure>
+<div class="featured-copy">
+<p class="project-label">Proyecto publicado</p>
+<h3>Vida Plena Senior</h3>
+<p>Diseñamos y construimos el sitio web de Vida Plena Senior, un proyecto dedicado al bienestar y al envejecimiento saludable. Organizamos sus recursos y contenidos en un solo lugar, con una biblioteca interactiva para facilitar la consulta.</p>
+<p class="meta">Desarrollamos este sitio en WordPress por elección del cliente.</p>
+<a class="button" href="https://vidaplenasenior.wordpress.com/">Visitar sitio web</a>
+</div>
+</article>
+<article class="project" id="elite-barber">
+<figure><img src="zanix-assets/elite.jpg" width="1265" height="712" loading="lazy" alt="Captura de la portada de Elite Barber Studio"></figure>
+<h3>Elite Barber Studio</h3><p class="meta">Demo de Zanix Studio</p>
+<p>Una web de barbería con servicios, precios y una reserva simulada por WhatsApp.</p>
+<a class="button secondary" href="https://elite-barber-zanix-studio.tastyechidna.chatgpt.site/" aria-label="Ver demo de Elite Barber Studio">Ver demo</a>
+</article>
+<article class="project" id="umbral">
+<figure><img src="zanix-assets/umbral.jpg" width="1265" height="712" loading="lazy" alt="Captura de la portada Arquitectura para vivir de Umbral"></figure>
+<h3>Umbral</h3><p class="meta">Demo de Zanix Studio · Plan Profesional</p>
+<p>Un portafolio de arquitectura con el recorrido visual de Casa del Olivo y una ficha interactiva.</p>
+<a class="button secondary" href="https://umbral-estudio-demo.tastyechidna.chatgpt.site/" aria-label="Ver demo de Umbral">Ver demo</a>
+</article>
+</div></div></section>
+<section id="planes" class="section"><div class="wrap"><h2>Planes</h2><div class="plans">
+<article class="plan"><h3>Básico</h3><p class="price">US$65</p><p>Precio de lanzamiento. Una página adaptable a celular con datos del negocio, fotos, mapa y botón de WhatsApp.</p><a href="#elite-barber">Ver Elite Barber Studio como ejemplo</a></article>
+<article class="plan"><h3>Profesional</h3><p class="price">US$150</p><p>Sitio para presentar servicios, galería y contacto, con SEO básico.</p><a href="#umbral">Ver Umbral como ejemplo</a></article>
+<article class="plan"><h3>Personalizado</h3><p class="price">Desde US$300</p><p>Catálogos, buscadores u otras funciones especiales. El precio final depende del alcance.</p></article>
+</div></div></section>
+<section id="contacto" class="section contact"><div class="wrap"><h2>Pide una cotización</h2><p>Cuéntanos qué hace tu negocio y qué necesitas que haga tu página.</p>
+<!-- Mensaje inicial: Hola, Zanix Studio. Quiero una cotización para la página web de mi negocio. -->
+<a class='button' href='https://wa.me/50432431308?text=Hola%2C%20Zanix%20Studio.%20Quiero%20una%20cotizaci%C3%B3n%20para%20la%20p%C3%A1gina%20web%20de%20mi%20negocio.'>Pedir cotización por WhatsApp</a>
+</div></section>
+</main>
+<footer><div class="wrap"><a class="brand" href="#inicio" translate="no" aria-label="Zanix Studio, inicio"><svg class="mark" width="38" height="31" viewBox="0 0 230 180" aria-hidden="true" focusable="false"><path fill="#33D6C1" d="M30 52 71 1h106l-24 29h-20l-19 22z"/><path fill="currentColor" d="M177 1h44l-80 99h-23l-42 51h32l25-30h97l-49 58H0l82-99h29z"/></svg><span class="wordmark">Zanix<span>Studio</span></span></a><a href='https://www.instagram.com/zanix.webdeveloper/'>Instagram</a></div></footer>
+</body></html>
+
+
+
+
+
+
+
+
